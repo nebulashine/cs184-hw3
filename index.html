@@ -1,148 +1,106 @@
-
-<!DOCTYPE html>
-<!--[if lt IE 7]><html class="ie6" lang="en"><![endif]-->
-<!--[if IE 7]><html class="ie7" lang="en"><![endif]-->
-<!--[if IE 8]><html class="ie8" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--><html lang="en"><!--<![endif]-->
+<html>
+<body>
+	<section>
+	<h1>Huang Song's Style Guide</h1>
 	<head>
-		<meta charset="utf-8" />
-		<title>Style Guide</title>
-		<meta name="robots" content="noindex, nofollow" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="shortcut icon" href="static/images/favicon.ico" />
-		<link rel="stylesheet" href="static/css/styleguide.css" media="screen, print" />
-		<link rel="stylesheet" href="/static/css/debug.rwd.css" media="screen" />
-		<script src="/static/js/library/modernizr.custom.js"></script>
-		<!--[if lte IE 8]><script src="/static/js/library/respond.min.js"></script><![endif]-->
+		<title> SH Style Guide  </title>
+    		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    		<link type="text/css" rel="stylesheet" 
+			href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css">
+    		<link type="text/css" rel="stylesheet"
+			href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css">
+    		<script type="text/javascript"
+	   		src="http://twitter.github.com/bootstrap/assets/js/bootstrap.js"></script>
 	</head>
+	</section>
 
-	<body>
-		<div id="container">
-			<h1>Style Guide</h1>
-			<p class="updated">Last Updated: <strong>April 3, 2012</strong></p>
 
-			<h2>Grid Framework</h2>
-			<ul>
-				<li><a href="grid_how_to.aspx">How To Use</a></li>
-				<li><a href="grid_litmus.aspx">Litmus Test</a></li>
-			</ul>
+	<p>
+	<em class=hot><h3>This is for CS184 Homework 3.</h3></em><br>
+	</p>
 
-			<h3>Regions</h3>
-			<ul>
-				<li><a href="grid_region_borders.aspx">Borders</a></li>
-				<li><a href="grid_region_keyline.aspx">Keyline</a></li>
-				<li><a href="grid_region_prefix_suffix.aspx">Prefix &amp; Suffix</a></li>
-				<li><a href="grid_region_push_pull.aspx">Push &amp; Pull</a></li>
-				<li><a href="grid_region_sizes.aspx">Sizes</a></li>
-			</ul>
 
-			<h3>Blocks</h3>
-			<ul>
-				<li><a href="grid_blocks_two.aspx">Two-Up</a></li>
-				<li><a href="grid_blocks_three.aspx">Three-Up</a></li>
-				<li><a href="grid_blocks_four.aspx">Four-Up</a></li>
-				<li><a href="grid_blocks_five.aspx">Five-Up</a></li>
-				<li><a href="grid_blocks_six.aspx">Six-Up</a></li>
-			</ul>
+	<p> <h4> Index style</h4>
+		<ol>
+		  <li>first item</li>
+		  <li>second item      <!-- Look, the closing </li> tag is not placed here! -->
+		    <ul>
+		      <li>second item first subitem</li>
+		      <li>second item second subitem</li>
+		      <li>second item third subitem</li>
+		    </ul>
+		  </li>                <!-- Here is the closing </li> tag -->
+		  <li>third item</li>
+		</ol>
+	</p>
 
-			<h2>Promo Layouts</h2>
-			<ul>
-				<li><a href="layout_promo_a.aspx">A</a></li>
-				<li><a href="layout_promo_b.aspx">B</a></li>
-				<li><a href="layout_promo_c.aspx">C</a></li>
-				<li><a href="layout_promo_d.aspx">D</a></li>
-				<li><a href="layout_promo_e.aspx">E</a></li>
-				<li><a href="layout_promo_f.aspx">F</a></li>
-			</ul>
+	<hr>
 
-			<h2>Content Objects</h2>
-			<ul>
-				<li><a href="additional.aspx">Additional</a></li>
-				<li><a href="address_validation.aspx">Address Validation</a></li>
-				<li><a href="blog_entry.aspx">Blog Entry</a></li>
-				<li><a href="buttons.aspx">Buttons</a></li>
-				<li><a href="flags.aspx">Flags</a></li>
-				<li>
-					<strong>Forms</strong>
-					<ul>
-						<li><a href="forms.aspx">Basic Forms</a></li>
-						<li><a href="forms_selectors.aspx">Selectors</a></li>
-						<li><a href="validation_summary.aspx">Validation Summary</a></li>
-					</ul>
-				</li>
-				<li><a href="headings.aspx">Headings</a></li>
-				<li><a href="images.aspx">Images</a></li>
-				<li><a href="landing.aspx">Landing</a></li>
-				<li>
-					<strong>Lists</strong>
-					<ul>
-						<li><a href="lists.aspx">Basic Lists</a></li>
-						<li><a href="anchors.aspx">Anchors</a></li>
-						<li><a href="categories.aspx">Categories</a></li>
-						<li><a href="documents.aspx">Documents</a></li>
-						<li><a href="section_navigation.aspx">Section Navigation</a></li>
-						<li><a href="thumbs.aspx">Thumbs List</a> (blocks)</li>
-						<li><a href="thumbs_details.aspx">Thumbs Details List</a> (blocks)</li>
-						<li><a href="thumbs_popover.aspx">Thumbs Popover List</a> (blocks)</li>
-					</ul>
-				</li>
-				<li><a href="pagination.aspx">Pagination</a></li>
-				<li><a href="promos.aspx">Promos</a></li>
-				<li><a href="section_blocks.aspx">Section Blocks</a> (blocks)</li>
-				<li><a href="summary.aspx">Summary</a></li>
-				<li><a href="tab_kit.aspx">Tab Kit</a></li>
-				<li><a href="table.aspx">Table</a></li>
-				<li>Tooltip</li>
-				<li>
-					Utility Classes
-					<!--
-					TODO - CJ - add this
-					- text alignment
-					- tracking images
-					- numbers
-					-->
-				</li>
-			</ul>
+	<p> <h4> My definition list style:</h4>
+	<dl>
+	  <dt>Firefox</dt>
+	  <dt>Mozilla Firefox</dt>
+	  <dt>Fx</dt>
+	  <dd>A free, open source, cross-platform, graphical web browser
+	      developed by the Mozilla Corporation and hundreds of volunteers.</dd>
+	 
+	  <!-- other terms and definitions -->
+	</dl>
+	</p>
 
-			<h2>Widgets</h2>
-			<p>Basic examples of JavaScript</p>
-			<ul>
-				<li><a href="autocomplete.aspx">Autocomplete</a></li>
-				<li><a href="datepicker.aspx">Datepicker</a></li>
-				<li><a href="dialog.aspx">Dialog</a></li>
-				<li><a href="expandable.aspx">Expandable</a></li>
-				<li><a href="filtering.aspx">Filtering</a></li>
-				<li>
-					Media Player
-					<ul>
-						<li><a href="media_player_category.aspx">Category</a></li>
-						<li><a href="media_player_home.aspx">Home</a></li>
-						<li><a href="media_player_single.aspx">Single</a></li>
-					</ul>
-				</li>
-				<li><a href="prettyphoto.aspx">prettyPhoto</a></li>
-				<li><a href="validation_basic.aspx">Validation basic</a></li>
-			</ul>
+	<hr>
 
-			<h2>Debug</h2>
-			<ul>
-				<li><a href="debug.aspx">Examples</a></li>
-			</ul>
-		</div>
+	<p> <h4> My quotation style:</h4> 
+	   <q cite="http://en.wikipedia.org/wiki/Kenny_McCormick#Cultural_impact">
+	     "Oh my God, you/they killed Kenny!"
+	   </q>.
+	</p>
 
-		<!-- part of resourceSet: framework_js -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="/static/js/jquery-1.7.2.min.js"><\/script>')</script>
-		<script src="/static/js/sb/sb.js"></script>
-		<script src="/static/js/sb/sb.type.js"></script>
-		<script src="/static/js/sb/sb.console.js"></script>
+	<hr>
 
-		<!-- part of resourceSet: global_js -->
-		<script src="/static/js/shared/sb.rwd.js"></script>
-		<script src="/static/js/global.js"></script>
+	<p> <h4> My citation style:</h4>
+	<blockquote cite="http://developer.mozilla.org">
+	  <p>This is a quotation taken from the Mozilla Developer Center.</p>
+	</blockquote>
+	</p>
 
-		<script src="/static/js/debug.js"></script>
-		<script src="/static/js/debug.rwd.js"></script>
-		<!--[if lte IE 6]><script src="/static/js/fix/lteie6.js"></script><![endif]-->
-	</body>
+	<hr>
+
+	<p> <h4> My linking style:</h4> 
+	<!-- Load the result into a new unnamed HTML4 window or HTML5 browsing context -->
+	<base target="_blank" href="http://www.htmldog.com"> 
+	You can find more HTML info from: <a href="guides/htmlbeginner/">HTML Beginner Tutorial</a></p>
+
+	<hr>
+
+	<p> <h4> My code style:</h4> 
+		<code>	This is my code blablabla</code>
+	</p>
+
+	<hr>
+
+	<p> <h4> My emphasizing style:</h4> 
+		<i> This is for <mark>emphasizing</mark> (italicized) </i>
+	</p>
+
+	<hr>
+
+	<p> <h4> My image style:</h4> 
+		<img src="https://sphotos-a.xx.fbcdn.net/hphotos-ash4/390115_328797747228202_1115621035_n.jpg" alt="nice view">
+	</p>
+
+	<hr>
+
+	<p> <h4> My address style:</h4> 
+		<address>
+			You can contact me through email: <a href="nebulashine@tom.com">email</a>.<br>
+			My Address:<br>
+			Stanford<br>
+			CA 94305<br>
+			USA
+		</address>
+	</p>
+
+
+</body>
 </html>
